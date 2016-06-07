@@ -1,0 +1,14 @@
+{
+  "name": "illbethereforyou",
+  "version": "1.0.0",
+  "description": "Social Network",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oleg Umarov",
+  "license": "ISC"
+}
