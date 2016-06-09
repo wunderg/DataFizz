@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 
+import Navigation from '../navbar/navbar.js';
 
 export class App extends Component {
   constructor(props) {
@@ -10,8 +11,8 @@ export class App extends Component {
   render() {
     return (
       <div id="main">
+        <Navigation />
         <div className="container">
-          <h1> 1Hello world12 </h1>
           { this.props.children }
         </div>
       </div>

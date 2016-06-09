@@ -5,6 +5,7 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import storeConfig from './store';
 
 import App from './containers/app/app.js';
+import Dashboard from './containers/dashboard/dashboard.js';
 
 const store = storeConfig();
 
@@ -12,7 +13,7 @@ render(
   <Provider store={store}>
     <Router history={browserHistory}>
       <Route path="/" component={App}>
-        <IndexRoute component={App} />
+        <IndexRoute component={Dashboard} />
       </Route>
     </Router>
   </Provider>,
