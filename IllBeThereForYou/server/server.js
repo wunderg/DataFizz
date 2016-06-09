@@ -32,7 +32,7 @@ if (!isProduction) {
     inline: true,
     hot: true,
     quiet: true,
-    noInfo: false,
+    noInfo: true,
     stats: { colors: true },
     proxy: [
       {

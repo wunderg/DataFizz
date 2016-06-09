@@ -11,7 +11,7 @@ export class App extends Component {
     return (
       <div id="main">
         <div className="container">
-          <h1> Hello world </h1>
+          <h1> 1Hello world12 </h1>
           { this.props.children }
         </div>
       </div>
